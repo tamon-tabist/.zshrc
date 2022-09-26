@@ -1,3 +1,6 @@
+# nord for iterm
+# https://penguin-note.tech/iterm2-install-nord/
+
 # alias
 # alias git
 alias g='git'
