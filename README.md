@@ -1,0 +1,1 @@
+# Tamon's custom .zshrc
