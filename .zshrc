@@ -19,3 +19,9 @@ precmd () { vcs_info }
 PROMPT='
 [%B%F{red}%n@%m%f%b:%F{green}%~%f]%F{cyan}$vcs_info_msg_0_%f
 %F{yellow}$%f '
+
+# https://qiita.com/kenta4327/items/8faaa83f6a5bf595a4bc
+# 補完機能を有効にする
+autoload -Uz compinit && compinit
+# 小文字でも大文字ディレクトリ、ファイルを補完できるようにする
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
