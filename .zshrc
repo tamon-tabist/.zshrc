@@ -1,8 +1,22 @@
+# alias
+# alias git
+alias g='git'
+alias gs='git status'
+alias ga='git add'
+alias gc='git commit'
+alias gp='git push'
+
+# alias flutter
+alias f='flutter'
+alias fgen='genhtml coverage/lcov.info -o coverage/html'
+
+# alias docker compose
+alias dcp='docker-compose'
+
+
 # color
 export CLICOLOR=1
 export TERM=xterm-256color
-# alias
-source ~/alias/alias.sh
 
 # https://bottoms-programming.com/archives/termina-git-branch-name-zsh.html
 # git info for prompt customize
